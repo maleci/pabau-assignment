@@ -16,11 +16,11 @@ To access the site, open your browser and navigate to [http://localhost:3000](ht
 * **URL Structure**:
   This project uses brand and model **names** in URLs instead of IDs:
   Example: `localhost:3000/brands/(brand-name)/(model-name)`
-  This improves readability and SEO, but it comes with a trade-off: additional network requests are needed because the backend [API](https://graphql-api-brown.vercel.app/api/graphql) does not support fetching brands or models by name.
+  This improves readability and SEO, but it comes with the cost of additional network requests because the backend [API](https://graphql-api-brown.vercel.app/api/graphql) does not support fetching brands or models by name.
 
 * **Pagination / Infinite Scrolling**:
-  The API does not support paginated queries, so all pagination is handled client-side.
-  To simulate infinite scrolling, the project uses a fake delay to gradually display previously fetched models as the user scrolls. You can tweak this behavior in `/components/model-grid.tsx`.
+  The backend [API](https://graphql-api-brown.vercel.app/api/graphql) does not support paginated queries, so all pagination is handled client-side.
+  To simulate infinite scrolling, the project uses a fake delay to gradually display models that have already been fetched as the user scrolls. You can tweak this behavior in `/components/model-grid.tsx`.
 
 * **Localization**:
   The app supports language switching while maintaining the benefits of server-side rendering (SSR). Locale files are located in `/app/assets/locales`.
