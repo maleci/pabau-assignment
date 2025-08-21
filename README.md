@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Prerequisites
+
+* Node.js must be installed on your system.
 
 ## Getting Started
 
-First, run the development server:
+1. Open the project's root folder in your terminal.
+2. Run `npm install` to install dependencies.
+3. Run `npm run dev` to start the development server.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This will launch a development server on your local network.
+To access the site, open your browser and navigate to [http://localhost:3000](http://localhost:3000).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Important Notes
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* **URL Structure**:
+  This project uses brand and model **names** in URLs instead of IDs:
+  Example: `localhost:3000/brands/(brand-name)/(model-name)`
+  This improves readability and SEO, but it comes with a trade-off: additional network requests are needed because the backend [API](https://graphql-api-brown.vercel.app/api/graphql) does not support fetching brands or models by name.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Pagination / Infinite Scrolling**:
+  The API does not support paginated queries, so all pagination is handled client-side.
+  To simulate infinite scrolling, the project uses a fake delay to gradually display previously fetched models as the user scrolls. You can tweak this behavior in `/components/model-grid.tsx`.
 
-## Learn More
+* **Localization**:
+  The app supports language switching while maintaining the benefits of server-side rendering (SSR). Locale files are located in `/app/assets/locales`.
 
-To learn more about Next.js, take a look at the following resources:
+* **Responsive Design**:
+  All pages are mobile-friendly and responsive across various screen sizes.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* **Icons**:
+  While the UI closely follows the original Figma design, generic icons from [Lucide](https://lucide.dev) were used as substitutes for some design-specific icons.
