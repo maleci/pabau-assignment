@@ -1,0 +1,36 @@
+{
+    "hero": ["Browse top quality", "<accent>Guitars</accent> online"],
+    "heroDescription": "Explore 50k+ latest collections of branded guitars online with VibeStrings.",
+
+    "header1": "Featuring the <accent>Best Brands</accent>",
+    "header1Description": "Select your preferred brand and explore our exquisite collection.",
+
+    "header2": "Why try <accent>VibeStrings?</accent>",
+
+    "category1Header": "Smooth Browsing",
+    "category1Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+    "category2Header": "Easy Delivery",
+    "category2Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+    "category3Header": "Swift Payments",
+    "category3Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+    "header3": ["Browse and buy your", "<accent>favourite guitars</accent> with", "VibeStrings."],
+
+    "footerPagesTitle": "Pages",
+    "footerPagesStore": "Store",
+    "footerPagesCollections": "Collections",
+    "footerPagesSupport": "Support",
+
+    "footerProductTitle": "Pages",
+    "footerProductTerms": "Terms",
+    "footerProductPrivacy": "Privacy Policy",
+    "footerProductCopyright": "Copyright",
+
+    "footerFollowTitle": "Follow Us",
+
+    "footerLanguageTitle": "Language",
+
+    "copyright": "© 2022 VibeStrings. All rights reserved."
+}

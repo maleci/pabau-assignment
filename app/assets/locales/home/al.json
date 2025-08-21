@@ -1,0 +1,36 @@
+{
+    "hero": ["Gjeni <accent>kitara</accent> me", "cilësi të lartë online"],
+    "heroDescription": "Shiko mbi 50+ mijë kitare të brendeve më cilësore online me VibeStrings.",
+
+    "header1": "Brendet më <accent>të njohura</accent>",
+    "header1Description": "Zgjidhni brendin tuaj të preferuar dhe eksploroni koleksionin tonë të shkëlqyer.",
+
+    "header2": "Pse <accent>VibeStrings?</accent>",
+
+    "category1Header": "Shfletim i lehtë",
+    "category1Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+    "category2Header": "Dërgim i shpejtë",
+    "category2Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+    "category3Header": "Pagesa të sigurta",
+    "category3Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+    "header3": ["Shiko dhe blej <accent>kitarën</accent>", "<accent>tënde të preferuar</accent>", " me VibeStrings."],
+
+    "footerPagesTitle": "Faqet",
+    "footerPagesStore": "Dyqani",
+    "footerPagesCollections": "Koleksionet",
+    "footerPagesSupport": "Mbështetje",
+
+    "footerProductTitle": "Produkti",
+    "footerProductTerms": "Kushtet e përdorimit",
+    "footerProductPrivacy": "Politika e privatësisë",
+    "footerProductCopyright": "Të Drejtat e Autorit",
+
+    "footerFollowTitle": "Na Ndiqni",
+
+    "footerLanguageTitle": "Gjuha",
+
+    "copyright": "© 2022 VibeStrings. Të gjitha të drejtat e rezervuara."
+}

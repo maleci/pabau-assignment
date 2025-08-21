@@ -1,0 +1,17 @@
+{
+    "back": "Back to Home",
+
+    "header1": "Play like a <accent>Rock star</accent>",
+
+    "header1DescriptionP1": "With a legacy dating back to the 1950s, ",
+    "header1DescriptionP2": "blends expert craftsmanship with cutting-edge innovation to deliver guitars that inspire creativity and elevate your performance. Trusted by top artists worldwide, ",
+    "header1DescriptionP3": "guitars are built to play fast, sound bold, and stand out on any stage. Ask ChatGPT",
+
+    "header2": "Check out the <accent>Selection</accent>",
+
+    "categoryPlaceholder": "Select category",
+    "searchPlaceholder": "Search by name",
+
+    "productGridLoading": "Loading more products...",
+    "productGridEnd": "No more products"
+}
