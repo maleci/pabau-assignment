@@ -29,4 +29,4 @@ To access the site, open your browser and navigate to [http://localhost:3000](ht
   All pages are mobile-friendly and responsive across various screen sizes.
 
 * **Icons**:
-  While the UI closely follows the original Figma design, generic icons from [Lucide](https://lucide.dev) were used as substitutes for some design-specific icons.
+  While the UI closely follows the original Figma design, icons from [Lucide](https://lucide.dev) were used as substitutes for some generic icons.
